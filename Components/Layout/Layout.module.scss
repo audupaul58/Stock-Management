@@ -1,0 +1,33 @@
+
+.contsec{
+
+    display: grid;
+    background-color: var(--background);
+    color: var(--foreground);
+
+    .heading{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 8vh;
+        padding: 12px;
+        border-bottom: 1px solid gray;
+
+        .hambuger{
+            margin-right: 15px;
+            font-size: x-large;
+            margin-top: -10px;
+        }
+    }
+
+    .comSec{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+       
+        
+    }
+
+}

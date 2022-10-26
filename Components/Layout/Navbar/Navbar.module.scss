@@ -1,0 +1,68 @@
+@import '../../../styles/color.module.scss';
+
+
+.navCont{
+    background-color: var(--background);
+    color: var(--foreground);
+    height: 100vh;
+    margin-top: -2vh;
+    padding: 0;
+    -webkit-box-shadow: -4px 10px 29px 4px rgba(0,0,0,0.48);
+-moz-box-shadow: -4px 10px 29px 4px rgba(0,0,0,0.48);
+box-shadow: -4px 10px 29px 4px rgba(0,0,0,0.48);
+
+.headItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+
+   
+
+    .logoIcon{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+
+        .Icon{
+            font-size: 25px;
+            margin-bottom: 7px;
+        }
+        
+        h6{
+            margin-top: 5px;
+            margin-inline: 2px;
+           
+        }
+    }
+
+    .OtherItem{
+
+        button{
+            border-radius: 5px;
+        }
+       
+    }
+}
+
+.sideItem{
+    margin-top: 3vh;
+
+    .item{
+        margin-bottom: 25px;
+
+        &:hover{
+           border: 2px solid gray;
+        }
+
+        .icologo{
+            //color: red;
+        }
+    }
+}
+}

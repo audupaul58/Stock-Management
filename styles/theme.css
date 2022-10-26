@@ -1,0 +1,13 @@
+:root {
+    /* Your default theme */
+    --background: white;
+    --foreground: #2E294E;;
+    --sideground: rgb(141, 131, 131);
+  }
+  
+  [data-theme='dark'] {
+    --background: #2E294E;;
+    --foreground: white;
+    --sideground: rgb(48, 37, 37);
+
+  }
